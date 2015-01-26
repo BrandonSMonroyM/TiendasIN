@@ -55,6 +55,7 @@ a:focus {
   background-repeat: no-repeat;
   padding: 200px 0;
   color: #fff;
+  width: 100%;
 }
 #main-slider .item {
   -moz-transition: opacity ease-in-out 500ms;
@@ -71,10 +72,14 @@ a:focus {
   text-align: center;
 }
 #main-slider .slider1{
-	background: url(http://cnjtc.com/wp-content/uploads/2013/04/private-jet-leaving-the-city-1080p-hd-wallpaper-aircraft.jpg);
+	background-image: url("../images/tiendas_in_compras.jpg");
+	background-size: cover;
+	background-position: 0px -100px;
 }
 #main-slider .slider2{
-	background: url(http://wallpaperscraft.com/image/79288/1920x1080.jpg);
+	background-image: url("../images/tienda_in.jpg");
+	background-size: cover;
+	background-position: 0px -100px;
 }
 #main-slider .item:first-child {
   top: auto;
@@ -125,7 +130,7 @@ a:focus {
 }
 #main-slider h1 {
   font-size: 68px;
-  text-shadow: 0 3px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.7);
   color: #fff;
 }
 #contact .box {
@@ -175,6 +180,8 @@ a:focus {
 .descrip-slider{
   margin-bottom: 130px;
   margin-top: -110px;
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.7);
+ font-size: 1.6em
 }
 .box.last {
   border-radius: 0 0 5px 5px;
