@@ -2,7 +2,7 @@
 	header('Content-type: application/json');
 	$status = array(
 		'type'=>'success',
-		'message'=>'Email sent!'
+		'message'=>'Tú mensaje ha sido Enviado'
 	);
 
     $name = @trim(stripslashes($_POST['name'])); 
