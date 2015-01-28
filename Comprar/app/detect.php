@@ -115,9 +115,9 @@ $mobile_agents = array(
 if(in_array($mobile_ua,$mobile_agents)){
     $mobile_browser++;
     }
-if (strpos(strtolower($_SERVER['ALL_HTTP']),'OperaMini')>0) {
+/*if (strpos(strtolower($_SERVER['ALL_HTTP']),'OperaMini')>0) {
     $mobile_browser++;
-    }
+    }*/
 		if (strpos(strtolower($_SERVER['HTTP_USER_AGENT']),'iemobile')>0) {
 $mobile_browser++;
 }
