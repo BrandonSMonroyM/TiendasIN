@@ -90,6 +90,11 @@ a:focus {
 	background-size: cover;
 	background-position: 0px -100px;
 }
+#main-slider .slider3{
+	background-image: url("../images/tiendas_in_local.jpg");
+	background-size: cover;
+	background-position: 0px -100px;
+}
 #main-slider .item:first-child {
   top: auto;
   position: relative;
