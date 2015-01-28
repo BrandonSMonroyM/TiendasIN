@@ -21,6 +21,26 @@ h6 {
   margin-bottom: 150px;
   margin-top:20px;
 }
+/* efecto*/
+.img-efec{
+    border: 2px solid #ccc;
+    float: left;
+    margin: 15px;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+ 
+.img-efec:hover {
+    margin-top: 2px;
+}
+.col-sm-4:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
 a {
   color: #EC5252;
   -webkit-transition: 300ms;
