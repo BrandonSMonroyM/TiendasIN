@@ -12,10 +12,10 @@
 
     $email_from = $email;
     $email_to = 'soporte@tiendasin.com';
-
+	var_dump(POST);
     $body = 'Name: ' . $name . "\n\n" . 'Email: ' . $email . "\n\n" . 'Subject: ' . $subject . "\n\n" . 'Message: ' . $message;
 
     $success = @mail($email_to, $subject, $body, 'From: <'.$email_from.'>');
 
     echo json_encode($status);
-    die; 
+die; 
