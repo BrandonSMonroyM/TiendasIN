@@ -2,20 +2,18 @@
 	header('Content-type: application/json');
 	$status = array(
 		'type'=>'success',
-		'message'=>'Tú mensaje ha sido Enviado'
+		'message'=>'Email sent!'
 	);
 
     $name = @trim(stripslashes($_POST['name'])); 
-    $email = @trim(stripslashes($_POST['email'])); 
-    $subject = @trim(stripslashes($_POST['subject'])); 
+    $email = @trim(stripslashes($_POST['email']));
     $message = @trim(stripslashes($_POST['message'])); 
 
     $email_from = $email;
-    $email_to = 'soporte@tiendasin.com';
-	var_dump(POST);
-    $body = 'Name: ' . $name . "\n\n" . 'Email: ' . $email . "\n\n" . 'Subject: ' . $subject . "\n\n" . 'Message: ' . $message;
+    $email_to = 'web@webpuro.net';
+    
+    $body = 'Name: ' . $name . "\n\n" . 'Email: ' . $email . "\n\n" . 'Message: ' . $message;
 
-    $success = @mail($email_to, $subject, $body, 'From: <'.$email_from.'>');
-
+    $success = @mail($email_to, $body, 'From: <'.$email_from.'>');
     echo json_encode($status);
-die; 
+    die; 

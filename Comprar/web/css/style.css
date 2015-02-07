@@ -43,7 +43,7 @@ body a{
 	font-size:1.2em;
 }
 .nav ul li a:hover{
-	color:#FFE500;
+	color:#f00;
 }
 .nav span.menu{
 	display:none;
@@ -127,14 +127,14 @@ body a{
 	font-weight: 300;
 }
 .banner-head span{
-	color:#FFE500;
+	color:#EA8B8B;
 }
 .banner-Get-started{
 	margin:3em 0;
 }
 .banner-Get-started a{
 	outline:0;
-	color:#FFE600;
+	color:#EA8B8B;
 	background:#fff;
 	border-radius:22px;
 	text-decoration:none;
@@ -146,7 +146,7 @@ body a{
 		-ms-transition:0.5s all;
 }
 .banner-Get-started a:hover{
-	background:#FFE600;
+	background:#EA8B8B;
 	color:#fff;
 }
 /*------------------ Slider Part starts Here----------*/
@@ -393,7 +393,7 @@ body a{
 .service-grid lable{
 	width:56%;
 	height:2px;
-	background:#FFEF66;
+	background:#EA8B8B;
 	position:absolute;
 	display:inline-block;
 	top:23%;
@@ -443,7 +443,7 @@ body a{
 	color: #fff;
 }
 .service-nav ul li a:hover{
-	color:#FBEF85;
+	color:#fb8585;
 }
 .service-nav ul li a span{
 	background:url(../images/nav-icon.png) no-repeat;
@@ -468,7 +468,7 @@ body a{
 	padding:2.6em 0em;
 }
 .service-info h3{
-	color:#FFE600;
+	color:#f00;
 	font-size:2.5em;
 }
 .service-info p{
@@ -481,7 +481,7 @@ body a{
 	position:absolute;
 	width:100%;
 	bottom:0;
-	background:#FFE600;
+	background:#f00;
 	min-height:100px;
 	text-align:center;
 }
@@ -491,7 +491,7 @@ body a{
 .Get-started a{
 	border:1.5px solid #fff;
 	outline:0;
-	color:#FFE600;
+	color:#f00;
 	background:#fff;
 	border-radius:22px;
 	padding:0.7em 1.5em;
@@ -503,7 +503,7 @@ body a{
 		-ms-transition:0.5s all;
 }
 .Get-started a:hover{
-	background:#FFE600;
+	background:#f00;
 	color:#fff;
 	border:1.5px solid #fff;
 }
@@ -626,11 +626,11 @@ ul#filters {
 	border-radius: 20px;
 }
 #filters li span.active{
-	background:#FFE500;
+	background:#f00;
 	color:#fff;
 }
 #filters li span:hover{
-	background:#FFE500;
+	background:#f00;
 	color:#fff;
 }
  #portfoliolist .portfolio {
@@ -767,7 +767,7 @@ p.b-animate.b-from-left.b-delay03 small
 h2.b-animate.b-from-left.b-delay03 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
-	color: #FFE500;
+	color: #f00;
 	margin: 1.5em 0 .5em 0;
 }
 /*--/Animation effects---*/
@@ -776,9 +776,9 @@ h2.b-animate.b-from-left.b-delay03 {
 }
 .portfolio-showmore a{
 	color:#fff;
-	background:#FFE500;
+	background:#f00;
 	padding:0.7em 2em;
-	border:1.5px solid #FFE500;
+	border:1.5px solid #f00;
 	border-radius:25px;
 	outline:0;
 	text-decoration:none;
@@ -789,13 +789,13 @@ h2.b-animate.b-from-left.b-delay03 {
 		-ms-transition:0.5s all;
 }
 .portfolio-showmore a:hover{
-	color:#FFE500;
+	color:#f00;
 	background:#fff;
-	border:1.5px solid #FFE500;
+	border:1.5px solid #f00;
 }
 /*--------portfolio-video-------*/
 .portfolio-video{
-	background:#FFE500;
+	background:#f00;
 	padding:0;
 }
 .portfolio-video-grids{
@@ -847,7 +847,7 @@ width:90%;
 }
 .portfolio-Get-started a:hover{
 	background:#fff;
-	color:#FFE500;
+	color:#f00;
 	border:1.5px solid #fff;
 }
 /*-------/portfolio--------*/
@@ -876,7 +876,7 @@ width:90%;
 .molly-Get-started a{
 	border:1.5px solid #324651;
 	outline:0;
-	color:#FFE600;
+	color:#f00;
 	background:#fff;
 	border-radius:22px;
 	text-decoration:none;
@@ -1059,7 +1059,7 @@ width:90%;
 .skill-head span lable{
 	min-height:15px;
 	border-radius:20px;
-	background:#FFE500;
+	background:#f00;
 	width:90%;
 	display:block;
 	margin: 0.8em 0;
@@ -1160,9 +1160,9 @@ width:90%;
 }
 .blog-show-more a{
 	color:#fff;
-	background:#FFE500;
+	background:#f00;
 	padding:0.7em 2em;
-	border:1.5px solid #FFE500;
+	border:1.5px solid #f00;
 	border-radius:25px;
 	outline:0;
 	text-decoration:none;
@@ -1173,15 +1173,15 @@ width:90%;
 		-ms-transition:0.5s all;
 }
 .blog-show-more a:hover{
-	color:#FFE500;
+	color:#f00;
 	background:#fff;
-	border:1.5px solid #FFE500;
+	border:1.5px solid #f00;
 }
 /*----/about---*/
 /*----subscribe---*/
 .subscribe{
 	min-height:200px;
-	background:#FFE500;
+	background:#f00;
 	text-align:center;
 	padding:2em 0;
 }
@@ -1293,7 +1293,7 @@ width:90%;
 		-ms-transition: 0.5s all;
 }
 .contact input[type="submit"]:hover{
-	background:#FFE600;
+	background:#f00;
 	color:#fff;
 }
 
@@ -1324,7 +1324,7 @@ width:90%;
 	padding:5em 0;
 }
 .footer-head a{
-	color:#C1B20A;
+	color:#c10a0a;
 	text-decoration:none;
 }
 .footer-head a:hover{

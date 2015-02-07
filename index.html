@@ -81,10 +81,9 @@
         <a class="prev" href="#main-slider" data-slide="prev"><i class="fa fa-angle-double-left"></i></i></a>
         <a class="next" href="#main-slider" data-slide="next"><i class="fa fa-angle-double-right"></i></a>
     </section><!--/#main-slider-->
-
-    <section id="services">
+    <section>
         <div class="container">
-            <div class="box first">
+            <div class="box first" id="services">
                 <div class="row">
                     <div class="col-md-4 col-sm-6">
                         <div class="center">
@@ -270,7 +269,7 @@
                             <li>Piezas Graficas Pro</li>
                             <li>Corporativa Pro</li>
                             <li>Soporte Formulario-Skype</li>
-                            <li class="plan-action"><a href="Comprar/index.php" target="_blank" class="btn btn-primary btn-lg">Contratar</a></li>
+                            <li class="plan-action"><a href="Comprar/" target="_blank" class="btn btn-primary btn-lg">Contratar</a></li>
                         </ul>
                     </div><!--/.col-sm-4-->
                     <div class="col-sm-4">
@@ -365,6 +364,7 @@
                         <p>Puede enviarnos sus inquietudes con respecto a nuestro servicio, estaremos respondiendo sus inquietudes lo más pronto posible.</p>
                         <div class="status alert alert-success" style="display: none"></div>
                         <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php" role="form">
+                           
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="form-group">
@@ -373,7 +373,7 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
-                                        <input type="text" name="email" class="form-control" required="required" placeholder="Correo">
+                                        <input type="email" name="email" class="form-control" required="required" placeholder="Correo">
                                     </div>
                                 </div>
                             </div>
@@ -413,16 +413,16 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <ul class="social">
-                                    <li><a href="https://www.facebook.com/tiendasIN"><i class="fa fa-facebook-official icon-social"></i> Facebook</a></li>
-                                    <li><a href="https://plus.google.com/u/0/105730306971633541683/videos"><i class="fa fa-google-plus-square icon-social"></i> Google Plus</a></li>
+                                    <li><a title="Tiendas IN | Facebook" href="https://www.facebook.com/tiendasIN"><i class="icon-social facebook fa fa-facebook-official icon-social"></i> Facebook</a></li>
+                                    <li><a title="Tiendas IN | Google Plus" href="https://plus.google.com/u/0/105730306971633541683/videos"><i class="icon-social google-plus fa fa-google-plus-square icon-social"></i> Google Plus</a></li>
                                     <!-- <li><a href="#"><i class="icon-pinterest icon-social"></i> Pinterest</a></li> -->
                                 </ul>
                             </div>
                             <div class="col-md-6">
                                 <ul class="social">
                                     <!-- <li><a href="#"><i class="icon-linkedin icon-social"></i> Linkedin</a></li> -->
-                                    <li><a href="https://twitter.com/Tiendas_IN"><i class="fa fa-twitter-square icon-social"></i> Twitter</a></li>
-                                    <li><a href="http://www.youtube.com/user/TiendasIN"><i class="fa fa-youtube-square icon-social"></i> Youtube</a></li>
+                                    <li><a title="Tiendas IN | Twitter" href="https://twitter.com/Tiendas_IN"><i class="icon-social twitter fa fa-twitter-square icon-social"></i> Twitter</a></li>
+                                    <li><a title="Tiendas IN | Youtube" href="http://www.youtube.com/user/TiendasIN"><i class="icon-social youtube fa fa-youtube-square icon-social"></i> Youtube</a></li>
                                 </ul>
                             </div>
                         </div>

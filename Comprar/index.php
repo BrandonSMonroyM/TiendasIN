@@ -16,5 +16,8 @@ if ($page_name=='') {
 elseif ($page_name=='index.html') {
 	include $browser_t.'/index.html';
 	}
+elseif ($page_name=='index.php') {
+	include $browser_t.'/index.html';
+	}
 
 ?>
