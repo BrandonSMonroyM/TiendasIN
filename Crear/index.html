@@ -1,18 +1,80 @@
 <!DOCTYPE html>
-<html lang="es-CO">
-<head>
-	<meta charset="UTF-8">
-	<title>Crear Tienda</title>
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<html>
+    <head>
+        <title>Tiendas IN | Crear Tienda</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="description" content="Website Horizontal Scrolling with jQuery" />
+        <meta name="keywords" content="jquery, horizontal, scrolling, scroll, smooth"/>
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="section black" id="section1">
+            <ul class="nav">
+				<li><a href="#section1">Paso #1</a></li>
+				<li><a href="#section2">Paso #2</a></li>
+				<li><a href="#section3">Paso #3</a></li>
+				<li><a href="#section4">Contacto</a></li>
+            </ul>
+            <h2>Section 1</h2>
+            <p>
+				MY Spectre around me night and day
+				Like a wild beast guards my way;
+				My Emanation far within
+				Weeps incessantly for my sin.
+            </p>
+        </div>
+        <div class="section white" id="section2">
+            <h2>Section 2</h2>
+            <p>
+				‘A fathomless and boundless deep,
+				There we wander, there we weep;
+                On the hungry craving wind
+                My Spectre follows thee behind.
 
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+            </p>
+            
+        </div>
+        <div class="section black" id="section3">
+            <h2>Section 3</h2>
+            <p>
+                ‘He scents thy footsteps in the snow
+                Wheresoever thou dost go,
+                Thro’ the wintry hail and rain.
+                When wilt thou return again?
 
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-</head>
-<body>
-	
-</body>
+            </p>
+        </div>
+        <div class="section white" id="section4">
+            <h2>Section 4</h2>
+            <p>
+                ‘He scents thy footsteps in the snow
+                Wheresoever thou dost go,
+                Thro’ the wintry hail and rain.
+                When wilt thou return again?
+
+            </p>
+        </div>
+
+        <!-- The JavaScript -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>		
+        <script type="text/javascript" src="jquery.easing.1.3.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                $('ul.nav a').bind('click',function(event){
+                    var $anchor = $(this);
+                    /*
+                    if you want to use one of the easing effects:
+                    $('html, body').stop().animate({
+                        scrollLeft: $($anchor.attr('href')).offset().left
+                    }, 1500,'easeInOutExpo');
+                     */
+                    $('html, body').stop().animate({
+                        scrollLeft: $($anchor.attr('href')).offset().left
+                    }, 7000);
+                    event.preventDefault();
+                });
+            });
+        </script>
+    </body>
 </html>
