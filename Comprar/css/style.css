@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@import url(http://fonts.googleapis.com/css?family=Hammersmith+One);
+body{
+	font-family: 'Hammersmith One', sans-serif;
+}
+.section{
+	height: 643px;
+}
+#home{
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+}
+#home nav {
+}
+#home nav ul{
+	width: 50%;
+	height: 70px;
+}
+#home nav ul:first-child{
+	float: left;
+}
+#home nav .logo li{
+	height: 100%;
+}
+#home nav .logo li img{
+	height: 100%;
+	margin-left: 20px;
+}
+#home nav ul:last-child{
+	text-align: end;
+	float: right;
+}
+#home nav ul li{
+	display: inline-flex;
+}
+#home nav ul li a{
+	color: #000;
+	font-weight: 600;
+	padding: 20px;
+	text-decoration: none;
+	transition: .9s;
+}
+#home nav ul li a:hover{
+	background-color: #FF0202;
+	color: #FFF;
+}
+#plan{
+	text-align: center;
+}
+	#plan p{
+		margin: auto;
+		text-align: justify;
+		width: 80%;
+	}

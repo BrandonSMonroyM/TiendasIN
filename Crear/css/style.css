@@ -2,17 +2,19 @@
     margin:0;
     padding:0;
 }
+::selection{background: #FF4C21; color: #FFF;}
 body{
     background:#000;
+    bottom:0px;
+    color: #fff;
     font-family:Georgia;
-    font-size: 34px;
     font-style: italic;
+    font-size: 25px;
+    left:0px;
     letter-spacing:-1px;
-    width:16000px;
     position:absolute;
     top:0px;
-    left:0px;
-    bottom:0px;
+    width:16000px;
 }
 a{
     color:#fff;
@@ -29,9 +31,9 @@ span.reference{
     font-weight:bold;
 }
 span.reference a{
-	color:#fff;
-	text-shadow:1px 1px 1px #000;
-	padding-right:20px;
+    color:#fff;
+    text-shadow:1px 1px 1px #000;
+    padding-right:20px;
 }
 span.reference a:hover{
     color:#ddd;
@@ -43,14 +45,45 @@ span.reference a:hover{
     width:4000px;
     float:left;
     height:100%;
-    text-shadow:1px 1px 2px #f0f0f0;
 }
-.section h2{
-    margin:50px 0px 30px 50px;
+.section h2,h1{
+    margin:80px 0px 30px 50px;
 }
 .section p{
     margin:20px 0px 0px 50px;
     width:600px;
+}
+.form{
+    margin-left: 50px;
+}
+.input-caja {
+    border-radius: 2px;
+    color: #FF4C21;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+.input-caja:focus{
+    outline: none;
+}
+.submit {
+    background: tomato;
+    border-radius: 2px;
+    border: 1px solid tomato;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px;
+}
+.submit:focus{
+    outline: none;
+}
+.www {
+    font-size: 25px;
+    margin-left: 45px;
+    margin-right: 5px;
+}
+.subDominio {
+    font-size: 25px;
+    margin-right: 5px;
 }
 .black{
     color:#fff;
@@ -64,22 +97,32 @@ span.reference a:hover{
 
 .section ul{
     list-style:none;
-    margin:20px 0px 0px 345px;
+    width: 49%;
+    margin: 0 0px 0 22%;
     position: fixed;
+    background: #FF0202;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 .black ul li{
     float:left;
-    padding:5px;
-    margin:5px;
+    padding:0px;
+    margin:0px;
     color:#aaa;
 }
 .black ul li a{
     display:block;
-    color:#EC5252;
+    color:#fff;
+    font-size: 20px;
+    margin: 0 2px;
+    padding:10px 7px;
+    transition: .7s;
+
 }
 .black ul li a:hover{
     text-decoration:none;
-    color:#EC5252;
+    color:#FFFFFF;
+    background:#FF6347;
 }
 .white ul li{
     float:left;
@@ -94,4 +137,50 @@ span.reference a:hover{
 .white ul li a:hover{
     text-decoration:none;
     color:#000;
+}
+footer{
+    width: 100%;
+    background: #FF6347;
+    text-align: center;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+}
+footer h6{
+    line-height: 50px;
+}
+footer h6 a{
+    text-decoration: none;
+    transition: .7s;
+}
+footer h6 a:hover{
+    color: #000000;
+    text-decoration: none;
+}
+@media screen and (max-width: 1024px){
+    .section ul {
+        width: 65%;
+        margin: 0 0 0 18%;
+    }
+}
+@media screen and (max-width: 768px){
+    .section ul {
+        display: block;
+        width: 88%;
+        margin-left: 6%;
+    }
+    .section h2,h1{
+        margin-top: 150px;
+    }
+    .section p{
+        width: 435px;
+        margin-left: 15px;
+    }
+    .www{
+        margin-left: 5px;
+    }
+    .dominio{
+        width: 12%;
+        
+    }
 }

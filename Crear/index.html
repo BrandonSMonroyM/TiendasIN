@@ -1,80 +1,157 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Tiendas IN | Crear Tienda</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-        <meta name="description" content="Website Horizontal Scrolling with jQuery" />
-        <meta name="keywords" content="jquery, horizontal, scrolling, scroll, smooth"/>
-        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-    </head>
-    <body>
-        <div class="section black" id="section1">
-            <ul class="nav">
-				<li><a href="#section1">Paso #1</a></li>
-				<li><a href="#section2">Paso #2</a></li>
-				<li><a href="#section3">Paso #3</a></li>
-				<li><a href="#section4">Contacto</a></li>
-            </ul>
-            <h2>Section 1</h2>
-            <p>
+	<head>
+		<title>Tiendas IN | Crear Tienda</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="description" content="Disfruta creando tu tienda junto a Tiendas IN, creamos este espacio para que sea mas facil hacer tu Tienda Online" />
+		<meta name="keywords" content="Crear, Tienda, Tiendas IN, Tiendas Online, Crea tu Tienda con Tiendas IN"/>
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
+	</head>
+	<body>
+		<div class="section black" id="section1">
+			<ul class="nav">
+				<li><a href="#section1">Escoje tú Dominio</a></li>
+				<li><a href="#section2">Información de Perfil</a></li>
+				<li><a href="#section3">Nombre de la Tienda</a></li>
+				<li><a href="#section4">Paso #4</a></li>
+			</ul>
+			<h2>Asegura tú Dominio</h2>
+			<p>
 				MY Spectre around me night and day
 				Like a wild beast guards my way;
 				My Emanation far within
 				Weeps incessantly for my sin.
-            </p>
-        </div>
-        <div class="section white" id="section2">
-            <h2>Section 2</h2>
-            <p>
-				‘A fathomless and boundless deep,
+			</p><br>
+			<form action="" class="dominio" method="get">
+				<span class="subdominio www">www.</span><input class="input-caja" type="search" results="5" name="s" placeholder="Buscar Dominio..." required><span class="subDominio">.tiendasin.com</span>
+				<input class="submit" type="submit" value="Buscar Dominio" name="buscar" />
+			</form>
+			<footer>
+				<h6>Copyright &nbsp; © 2015.&nbsp; Todos &nbsp; los &nbsp; derechos &nbsp; reservados &nbsp; Tiendas IN.&nbsp; Power By <a target="_Blank" href="http://tiendasin.com">Tiendas IN</a></h6>
+			</footer>
+		</div>
+		<div class="section white" id="section2">
+			<h2>Información de Perfil</h2>  
+			<!--<p>
+				''A fathomless and boundless deep,
 				There we wander, there we weep;
-                On the hungry craving wind
-                My Spectre follows thee behind.
+				On the hungry craving wind
+				My Spectre follows thee behind.''
 
-            </p>
-            
-        </div>
-        <div class="section black" id="section3">
-            <h2>Section 3</h2>
-            <p>
-                ‘He scents thy footsteps in the snow
-                Wheresoever thou dost go,
-                Thro’ the wintry hail and rain.
-                When wilt thou return again?
+			</p>-->
+			<form action="" class="form" method="get">
+			<table>
+				<tbody>
+					<tr>
+						<td>Nombre de la Tienda&nbsp;</td>
+						<td><input class="input-caja" type="text" name="n-tienda" required placeholder="">&nbsp;</td>
+						<td>NIT</td>
+						<td><input class="input-caja" type="number" name="nit" required placeholder=""></td>
+					</tr>
+					<tr>
+						<td><label for="nombre">Nombre</label></td>
+						<td><input class="input-caja" type="text" name="nombre" required /></td>
+						<td>Apellido</td>
+						<td><input class="input-caja" type="text" name="apellido" required placeholder=""></td>
+					</tr>
+					<tr>
+						<td><label for="email">E-mail </label></td>
+						<td><input class="input-caja" type="email" name="email" required /></td>
+						<td>Ciudad</td>
+						<td>
+							<select class="input-caja" required name="ciudad">
+								<option value="Armenia">Armenia</option>
+								<option value="Barrancabermeja">Barrancabermeja</option>
+								<option value="Barranquilla">Barranquilla</option>
+								<option value="Bello">Bello</option>
+								<option value="Bogotá">Bogotá</option>
+								<option value="Bucaramanga">Bucaramanga</option>
+								<option value="Buenaventura">Buenaventura</option>
+								<option value="Cartagena de Indias">Cartagena de Indias</option>
+								<option value="Cúcuta">Cúcuta</option>
+								<option value="Envigado">Envigado</option>
+								<option value="Floridablanca">Floridablanca</option>
+								<option value="Ibagué">Ibagué</option>
+								<option value="Itagui">Itagui</option>
+								<option value="Manizales">Manizales</option>
+								<option value="Medellin">Medellin</option>
+								<option value="Montería">Montería</option>
+								<option value="Neiva">Neiva</option>
+								<option value="Palmira">Palmira</option>
+								<option value="Pasto">Pasto</option>
+								<option value="Pereira">Pereira</option>
+								<option value="Popayán">Popayán</option>
+								<option value="Riohacha">Riohacha</option>
+								<option value="Santa Marta">Santa Marta</option>
+								<option value="Sincelejo">Sincelejo</option>
+								<option value="Soacha">Soacha</option>
+								<option value="Soledad">Soledad</option>
+								<option value="Tuluá">Tuluá</option>
+								<option value="Valledupar">Valledupar</option>
+								<option value="Villavicencio">Villavicencio</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td><label for="tel">Telefono </label></td>
+						<td><input class="input-caja" type="tel" required pattern="\S{5,10}" name="tel" required /></td>
+						<td>Celular&nbsp;</td>
+						<td><input class="input-caja" type="tel" required pattern="\S{5,10}" name="celular" placeholder=""></td>
+					</tr>
+					<tr>
+						<td><label for="pass">Clave </label></td>
+						<td><input class="input-caja" type="password" name="pass" required /></td>
+						<td>Confirmar Clave&nbsp;</td>
+						<td><input class="input-caja" type="password" required name="c-pass" placeholder=""></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input class="submit" type="reset"></td>
+						<td><input class="submit" type="submit" value="Enviar"></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+			</form>
+		</div>
+		<div class="section black" id="section3">
+			<h2>Section 3</h2>
+			<p>
+				''He scents thy footsteps in the snow
+				Wheresoever thou dost go,
+				Thro’ the wintry hail and rain.
+				When wilt thou return again?''
+			</p>
+		</div>
+		<div class="section white" id="section4">
+			<h1>Tiendas IN</h1>
+			<p>
+				''He scents thy footsteps in the snow
+				Wheresoever thou dost go,
+				Thro’ the wintry hail and rain.
+				When wilt thou return again?''
+			</p>
+		</div>
 
-            </p>
-        </div>
-        <div class="section white" id="section4">
-            <h2>Section 4</h2>
-            <p>
-                ‘He scents thy footsteps in the snow
-                Wheresoever thou dost go,
-                Thro’ the wintry hail and rain.
-                When wilt thou return again?
-
-            </p>
-        </div>
-
-        <!-- The JavaScript -->
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>		
-        <script type="text/javascript" src="jquery.easing.1.3.js"></script>
-        <script type="text/javascript">
-            $(function() {
-                $('ul.nav a').bind('click',function(event){
-                    var $anchor = $(this);
-                    /*
-                    if you want to use one of the easing effects:
-                    $('html, body').stop().animate({
-                        scrollLeft: $($anchor.attr('href')).offset().left
-                    }, 1500,'easeInOutExpo');
-                     */
-                    $('html, body').stop().animate({
-                        scrollLeft: $($anchor.attr('href')).offset().left
-                    }, 7000);
-                    event.preventDefault();
-                });
-            });
-        </script>
-    </body>
+		<!-- The JavaScript -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>		
+		<script type="text/javascript" src="jquery.easing.1.3.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('.section ul a').bind('click',function(event){
+					var $anchor = $(this);
+					/*
+					if you want to use one of the easing effects:
+					$('html, body').stop().animate({
+						scrollLeft: $($anchor.attr('href')).offset().left
+					}, 1500,'easeInOutExpo');
+					 */
+					$('html, body').stop().animate({
+						scrollLeft: $($anchor.attr('href')).offset().left
+					}, 2000);
+					event.preventDefault();
+				});
+			});
+		</script>
+	</body>
 </html>
