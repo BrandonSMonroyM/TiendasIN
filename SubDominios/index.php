@@ -8,7 +8,7 @@
 <body>
 
 	<header>
-		<img alt="WebPuro" src="http://webpuro.net/web/images/MOCKUP-WP-LOGO-PRINCIPAL.png">
+		<img alt="WebPuro" src="http://tiendasin.com/logo_tiendasin.png">
 	</header>
 
 	<?php
@@ -118,7 +118,7 @@
 	</form>
 
 	<footer>
-		<h5>© 2015-2016 all rights reserved Desing By <a target='_Blank' href='http://webpuro.net'>WebPuro</a></h5>
+		<h5>© 2015-2016 all rights reserved Desing By <a target='_Blank' href='http://webpuro.net'>TiendasIN</a></h5>
 	</footer>
 
 	";

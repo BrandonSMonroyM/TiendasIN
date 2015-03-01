@@ -17,7 +17,7 @@
 ::selection{background: #ff4c21;color: #fff;}
 		header{
 			transition: .7s;
-			background: #000;
+			background: #D5D5D5;
 			padding: 0 10%;
 			margin-bottom: 20px;
 		}
@@ -52,9 +52,9 @@
 			cursor: pointer;
 		}
 		footer{
-			background: #000;
+			background: #D5D5D5;
 			bottom: 0;
-			color: #fff;
+			color: #000;
 			height: 50px;
 			position: fixed;
 			text-align: center;
@@ -67,7 +67,7 @@
 			line-height: 50px;
 		}
 		footer a{
-			color: #fff;
+			color: #000;
 			font-family: 'z_aristaregular';
 			font-size: 25px;
 			text-decoration: none;
